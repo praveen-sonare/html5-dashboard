@@ -7,6 +7,7 @@ html {
     background-size: cover;
     -webkit-overflow-scrolling: touch;
     overflow: hidden;
+    user-select: none;
 }
 @keyframes blink{
     0%  { opacity: .25;}
@@ -15,6 +16,13 @@ html {
     75% { opacity: .5;}
     100%{ opacity: .25;}
 }
+
+img {
+    user-select: none !important;
+    touch-action: none;
+    pointer-events: none;
+}
+
 body {
     overflow: hidden;
 
