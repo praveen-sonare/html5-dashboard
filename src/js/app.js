@@ -1,7 +1,7 @@
 import { load as load_template } from './templates';
 import Mustache from 'mustache';
 
-import { lowcan } from 'agl-js-api';
+import * as lowcan from './agl_stubs_lowcan';
 
 var template;
 var page = {
